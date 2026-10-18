@@ -1,0 +1,16 @@
+{
+  "name": "classmate-device-simulator",
+  "version": "1.0.0",
+  "description": "Classmate: an offline classroom device powered by Gemma 4 (E2B / E4B). Device simulator + model server.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server/server.js",
+    "demo": "node server/server.js --demo",
+    "test": "node tests/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "Apache-2.0"
+}

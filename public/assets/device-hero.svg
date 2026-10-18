@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" width="1400" height="820">
+<rect width="1400" height="820" fill="#f2ede3"/>
+<text x="40" y="48" font-size="24" font-weight="800" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Classmate · concept device</text>
+<text x="40" y="72" font-size="14" fill="#5b645e" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Base shown. Lite and Pro share the same rugged body.</text>
+<g transform="translate(340,90)"><rect x="0" y="7" width="300" height="620" rx="54" fill="#235f45"/>
+<rect x="0" y="0" width="300" height="620" rx="54" fill="#2f7d5b"/>
+<rect x="80" y="-6" width="16" height="9" rx="4" fill="#111"/>
+<rect x="299" y="130" width="5" height="40" rx="2" fill="#235f45"/><rect x="299" y="185" width="5" height="70" rx="2" fill="#235f45"/>
+<rect x="12" y="12" width="276" height="596" rx="44" fill="#151816"/>
+<rect x="120" y="24" width="60" height="6" rx="3" fill="#2b302d"/><circle cx="200" cy="27" r="5" fill="#0b0f12" stroke="#2b302d" stroke-width="2"/>
+<rect x="22" y="42" width="256" height="530" rx="26" fill="#f8f6f1"/>
+<text x="38" y="63" font-size="11" font-weight="700" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">9:41</text>
+<rect x="96" y="52" width="92" height="15" rx="7.5" fill="#e2f1e9"/><text x="142" y="63" font-size="8.5" font-weight="800" text-anchor="middle" fill="#2f7d5b" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">BASE · E2B</text>
+<g fill="#1d2621"><rect x="226" y="60" width="3" height="4" rx="1"/><rect x="231" y="57" width="3" height="7" rx="1"/><rect x="236" y="54" width="3" height="10" rx="1"/></g>
+<rect x="244" y="55" width="20" height="10" rx="2.5" fill="none" stroke="#1d2621" stroke-width="1.3"/><rect x="246" y="57" width="14" height="6" rx="1" fill="#1d2621"/>
+<text x="36" y="98" font-size="15" font-weight="800" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Good morning, teacher</text>
+<text x="36" y="114" font-size="10" fill="#69736c" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Class 3 · 8 students</text>
+<g><rect x="36" y="126" width="113" height="92" rx="12" fill="#ffffff" stroke="#e2dccf"/>
+<g transform="translate(58,150)"><circle r="12" fill="#2f7d5b"/><path d="M-7 -5 q3.5 -2 6.5 0 v10 q-3 -2 -6.5 0z M7 -5 q-3.5 -2 -6.5 0 v10 q3 -2 6.5 0z" fill="#fff"/></g>
+<text x="46" y="184" font-size="11" font-weight="800" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Read Aloud</text>
+<text x="46" y="199" font-size="8.5" fill="#69736c" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Hear a child read</text>
+</g>
+<g><rect x="157" y="126" width="113" height="92" rx="12" fill="#ffffff" stroke="#e2dccf"/>
+<g transform="translate(179,150)"><circle r="12" fill="#2a9d8f"/><polyline points="-6,0 -2,4 6,-5" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="167" y="184" font-size="11" font-weight="800" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Grade Answers</text>
+<text x="167" y="199" font-size="8.5" fill="#69736c" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Photo, marks, copying</text>
+</g>
+<g><rect x="36" y="226" width="113" height="92" rx="12" fill="#ffffff" stroke="#e2dccf"/>
+<g transform="translate(58,250)"><circle r="12" fill="#e0a43a"/><rect x="-5" y="-7" width="10" height="14" rx="1.5" fill="#fff"/><path d="M-2.5 -3 h5 M-2.5 0 h5 M-2.5 3 h3" stroke="#999" stroke-width="1.2"/></g>
+<text x="46" y="284" font-size="11" font-weight="800" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Make a Test</text>
+<text x="46" y="299" font-size="8.5" fill="#69736c" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">From any page</text>
+</g>
+<g><rect x="157" y="226" width="113" height="92" rx="12" fill="#ffffff" stroke="#e2dccf"/>
+<g transform="translate(179,250)"><circle r="12" fill="#8e7dbe"/><rect x="-6" y="0" width="3" height="6" fill="#fff"/><rect x="-1.5" y="-4" width="3" height="10" fill="#fff"/><rect x="3" y="-7" width="3" height="13" fill="#fff"/></g>
+<text x="167" y="284" font-size="11" font-weight="800" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Class Report</text>
+<text x="167" y="299" font-size="8.5" fill="#69736c" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Who needs help</text>
+</g>
+<g><rect x="36" y="326" width="113" height="92" rx="12" fill="#ffffff" stroke="#e2dccf"/>
+<g transform="translate(58,350)"><circle r="12" fill="#e76f51"/><path d="M-6 -2.5 h3 l4 -3.5 v12 l-4 -3.5 h-3z" fill="#fff"/><path d="M3.5 -3 q2.5 3 0 6" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/></g>
+<text x="46" y="384" font-size="11" font-weight="800" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Read to Me</text>
+<text x="46" y="399" font-size="8.5" fill="#69736c" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Any page aloud</text>
+</g>
+<g opacity="0.5"><rect x="157" y="326" width="113" height="92" rx="12" fill="#fffaf0" stroke="#ecd3a5"/>
+<g transform="translate(179,350)"><circle r="12" fill="#b9770e"/><rect x="-2.6" y="-7" width="5.2" height="9" rx="2.6" fill="#fff"/><path d="M-5 0 q0 5 5 5 q5 0 5 -5 M0 5 v3" stroke="#fff" stroke-width="1.5" fill="none"/></g>
+<text x="167" y="384" font-size="11" font-weight="800" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Oral Exam</text>
+<text x="167" y="399" font-size="8.5" fill="#69736c" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Adaptive, spoken</text>
+<rect x="229" y="340" width="30" height="13" rx="4" fill="#fbe7c2"/><text x="244" y="350" font-size="7.5" font-weight="900" text-anchor="middle" fill="#8a5800" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">PRO</text>
+</g>
+<g opacity="0.5"><rect x="36" y="426" width="113" height="92" rx="12" fill="#fffaf0" stroke="#ecd3a5"/>
+<g transform="translate(58,450)"><circle r="12" fill="#b9770e"/><circle r="6.5" fill="none" stroke="#fff" stroke-width="1.6"/><ellipse rx="2.6" ry="6.5" fill="none" stroke="#fff" stroke-width="1.3"/><path d="M-6.5 0 h13" stroke="#fff" stroke-width="1.3"/></g>
+<text x="46" y="484" font-size="11" font-weight="800" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Home Language</text>
+<text x="46" y="499" font-size="8.5" fill="#69736c" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Ask in your language</text>
+<rect x="108" y="440" width="30" height="13" rx="4" fill="#fbe7c2"/><text x="123" y="450" font-size="7.5" font-weight="900" text-anchor="middle" fill="#8a5800" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">PRO</text>
+</g>
+<g><rect x="157" y="426" width="113" height="92" rx="12" fill="#ffffff" stroke="#e2dccf"/>
+<g transform="translate(179,450)"><circle r="12" fill="#7c857f"/><circle cx="-3" cy="-3" r="2.6" fill="#fff"/><circle cx="3.5" cy="-2" r="2.2" fill="#fff"/><path d="M-7.5 6 q4.5 -7 9 0z M0.5 6 q3 -6 7 0z" fill="#fff"/></g>
+<text x="167" y="484" font-size="11" font-weight="800" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Students</text>
+<text x="167" y="499" font-size="8.5" fill="#69736c" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Class list</text>
+</g>
+<rect x="110" y="556" width="80" height="4" rx="2" fill="#cfc8ba"/>
+<g fill="#2f3632"><circle cx="40" cy="590" r="2.6"/><circle cx="48" cy="590" r="2.6"/><circle cx="56" cy="590" r="2.6"/></g>
+<text x="262" y="593" font-size="7.5" font-weight="800" letter-spacing="2.4" text-anchor="end" fill="#3c443f" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">CLASSMATE</text></g>
+<g transform="translate(760,90)"><rect x="0" y="7" width="300" height="620" rx="54" fill="#235f45"/>
+<rect x="0" y="0" width="300" height="620" rx="54" fill="#2f7d5b"/>
+<rect x="204" y="-6" width="16" height="9" rx="4" fill="#111"/>
+<rect x="-4" y="130" width="5" height="40" rx="2" fill="#235f45"/><rect x="-4" y="185" width="5" height="70" rx="2" fill="#235f45"/>
+<rect x="298" y="250" width="7" height="38" rx="2" fill="#111"/>
+<rect x="296" y="380" width="4" height="16" rx="1" fill="#9cc7b2" opacity=".8"/>
+<rect x="12" y="12" width="276" height="596" rx="44" fill="#24312b"/>
+<rect x="32" y="34" width="74" height="74" rx="18" fill="#151816"/>
+<circle cx="58" cy="60" r="15" fill="#0b0f12" stroke="#3a4a45" stroke-width="3"/><circle cx="58" cy="60" r="6" fill="#2b4a5e"/><circle cx="55" cy="57" r="1.8" fill="#9fc3da"/>
+<circle cx="88" cy="88" r="6" fill="#f2e7c8"/><circle cx="88" cy="50" r="2" fill="#0b0f12"/>
+<g transform="translate(150,318) scale(2.4)"><circle r="12" fill="#2f7d5b"/><path d="M-7 -5 q3.5 -2 6.5 0 v10 q-3 -2 -6.5 0z M7 -5 q-3.5 -2 -6.5 0 v10 q3 -2 6.5 0z" fill="#fff"/></g>
+<text x="150" y="372" font-size="14" font-weight="800" letter-spacing="5" text-anchor="middle" fill="#9fb3a8" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">CLASSMATE</text>
+<text x="150" y="392" font-size="10" letter-spacing="2" text-anchor="middle" fill="#6f8479" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">BASE</text>
+<g fill="#121815"><circle cx="118" cy="560" r="2.2"/><circle cx="126" cy="560" r="2.2"/><circle cx="134" cy="560" r="2.2"/><circle cx="142" cy="560" r="2.2"/><circle cx="150" cy="560" r="2.2"/><circle cx="158" cy="560" r="2.2"/><circle cx="166" cy="560" r="2.2"/><circle cx="174" cy="560" r="2.2"/><circle cx="182" cy="560" r="2.2"/></g>
+<text x="150" y="590" font-size="7" text-anchor="middle" fill="#5d7066" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Gemma 4 inside · Apache 2.0</text></g>
+<text x="490" y="755" font-size="14" font-weight="700" text-anchor="middle" fill="#69736c" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">FRONT</text>
+<text x="910" y="755" font-size="14" font-weight="700" text-anchor="middle" fill="#69736c" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">BACK</text>
+<line x1="308" y1="124" x2="428" y2="88" stroke="#8b8473" stroke-width="1.2" stroke-dasharray="3 3"/><circle cx="428" cy="88" r="4.5" fill="#fff" stroke="#1d2621" stroke-width="2"/><text x="300" y="128" font-size="15" font-weight="800" text-anchor="end" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">3.5 mm headset jack</text><text x="300" y="146" font-size="12.5" text-anchor="end" fill="#5b645e" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Private practice, close-talk mic</text>
+<line x1="308" y1="258" x2="386" y2="240" stroke="#8b8473" stroke-width="1.2" stroke-dasharray="3 3"/><circle cx="386" cy="240" r="4.5" fill="#fff" stroke="#1d2621" stroke-width="2"/><text x="300" y="262" font-size="15" font-weight="800" text-anchor="end" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">6.1-inch touch screen</text><text x="300" y="280" font-size="12.5" text-anchor="end" fill="#5b645e" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Big buttons for small hands</text>
+<line x1="308" y1="398" x2="386" y2="420" stroke="#8b8473" stroke-width="1.2" stroke-dasharray="3 3"/><circle cx="386" cy="420" r="4.5" fill="#fff" stroke="#1d2621" stroke-width="2"/><text x="300" y="402" font-size="15" font-weight="800" text-anchor="end" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Gemma 4 on the device</text><text x="300" y="420" font-size="12.5" text-anchor="end" fill="#5b645e" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">E2B (Base) or E4B (Pro), no cloud</text>
+<line x1="308" y1="544" x2="343" y2="560" stroke="#8b8473" stroke-width="1.2" stroke-dasharray="3 3"/><circle cx="343" cy="560" r="4.5" fill="#fff" stroke="#1d2621" stroke-width="2"/><text x="300" y="548" font-size="15" font-weight="800" text-anchor="end" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Rubber bumper</text><text x="300" y="566" font-size="12.5" text-anchor="end" fill="#5b645e" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Survives a fall from a desk</text>
+<line x1="308" y1="672" x2="388" y2="680" stroke="#8b8473" stroke-width="1.2" stroke-dasharray="3 3"/><circle cx="388" cy="680" r="4.5" fill="#fff" stroke="#1d2621" stroke-width="2"/><text x="300" y="676" font-size="15" font-weight="800" text-anchor="end" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Dual noise-cancelling mics</text><text x="300" y="694" font-size="12.5" text-anchor="end" fill="#5b645e" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Clean recordings in a noisy class</text>
+<line x1="1092" y1="134" x2="818" y2="150" stroke="#8b8473" stroke-width="1.2" stroke-dasharray="3 3"/><circle cx="818" cy="150" r="4.5" fill="#fff" stroke="#1d2621" stroke-width="2"/><text x="1100" y="138" font-size="15" font-weight="800" text-anchor="start" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Rear document camera + flash</text><text x="1100" y="156" font-size="12.5" text-anchor="start" fill="#5b645e" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Pages, answer sheets, blackboards</text>
+<line x1="1092" y1="296" x2="1062" y2="358" stroke="#8b8473" stroke-width="1.2" stroke-dasharray="3 3"/><circle cx="1062" cy="358" r="4.5" fill="#fff" stroke="#1d2621" stroke-width="2"/><text x="1100" y="300" font-size="15" font-weight="800" text-anchor="start" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">microSD slot</text><text x="1100" y="318" font-size="12.5" text-anchor="start" fill="#5b645e" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Model + textbook updates, no data</text>
+<line x1="1092" y1="458" x2="1058" y2="478" stroke="#8b8473" stroke-width="1.2" stroke-dasharray="3 3"/><circle cx="1058" cy="478" r="4.5" fill="#fff" stroke="#1d2621" stroke-width="2"/><text x="1100" y="462" font-size="15" font-weight="800" text-anchor="start" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Data-light 4G and Wi-Fi</text><text x="1100" y="480" font-size="12.5" text-anchor="start" fill="#5b645e" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Kilobytes a week: scores, not voices</text>
+<line x1="1092" y1="578" x2="980" y2="560" stroke="#8b8473" stroke-width="1.2" stroke-dasharray="3 3"/><circle cx="980" cy="560" r="4.5" fill="#fff" stroke="#1d2621" stroke-width="2"/><text x="1100" y="582" font-size="15" font-weight="800" text-anchor="start" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">5,000 mAh battery</text><text x="1100" y="600" font-size="12.5" text-anchor="start" fill="#5b645e" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">A full school day of grading</text>
+<line x1="1092" y1="686" x2="942" y2="650" stroke="#8b8473" stroke-width="1.2" stroke-dasharray="3 3"/><circle cx="942" cy="650" r="4.5" fill="#fff" stroke="#1d2621" stroke-width="2"/><text x="1100" y="690" font-size="15" font-weight="800" text-anchor="start" fill="#1d2621" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Loudspeaker</text><text x="1100" y="708" font-size="12.5" text-anchor="start" fill="#5b645e" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Read to Me and spoken feedback</text>
+<text x="700" y="800" font-size="12" text-anchor="middle" fill="#8b8473" font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif">Concept design. Specs are targets for a mid-range Android build running in kiosk mode.</text>
+</svg>

@@ -1,0 +1,27 @@
+# Model weights and config downloads (large; keep out of git)
+models/**/*
+!models/base/PUT_MODEL_HERE.txt
+!models/pro/PUT_MODEL_HERE.txt
+ 
+# Secrets and local settings
+.env
+ 
+# Runtime data (weekly sync log)
+data/
+ 
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+ 
+# Node
+node_modules/
+npm-debug.log*
+ 
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+ 

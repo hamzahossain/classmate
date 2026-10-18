@@ -1,0 +1,6 @@
+# Gemma 4 needs a recent transformers release. If loading fails, run: pip install -U transformers
+torch
+transformers>=4.57
+accelerate
+pillow
+numpy

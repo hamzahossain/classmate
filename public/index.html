@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Classmate · Device Simulator</title>
+  <meta name="description" content="Classmate: an offline classroom device that hears children read, sees their work and grades it, powered by Gemma 4 on the device.">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div class="stage">
+    <!-- Presenter panel: controls for the demo, not part of the device -->
+    <aside class="presenter" aria-label="Demo controls">
+      <div class="brand">
+        <img src="assets/icon.svg" alt="" width="36" height="36">
+        <div><b>Classmate</b><span>device simulator</span></div>
+      </div>
+
+      <div class="p-section">
+        <div class="p-label">Device version</div>
+        <div class="tier-cards">
+          <button class="tier-card t-lite" data-tier-card="lite"><b>Lite</b><span>Gemma 4 · online</span><small>2–3 GB · daily limit</small></button>
+          <button class="tier-card t-base" data-tier-card="base"><b>Base</b><span>Gemma 4 E2B</span><small>4–6 GB · offline</small></button>
+          <button class="tier-card t-pro" data-tier-card="pro"><b>Pro</b><span>Gemma 4 E4B</span><small>8 GB · offline + exclusive</small></button>
+        </div>
+      </div>
+
+      <div class="p-section">
+        <label class="switch"><input type="checkbox" id="net-toggle" checked><span class="slider"></span><b>Network</b></label>
+        <p class="p-note">Turn off to show Lite pausing while Base and Pro keep working.</p>
+        <div id="p-queue" class="p-queue"></div>
+      </div>
+
+      <div class="p-section" id="p-quota">
+        <div class="p-label">Lite daily limit <span id="p-quota-n"></span></div>
+        <div class="p-bar"><div id="p-quota-bar"></div></div>
+        <div class="p-btns"><button id="p-use-quota">Use it up</button><button id="p-reset-quota">Refill</button></div>
+      </div>
+
+      <div class="p-section counters">
+        <div><span class="p-label">Data sent</span><b id="p-sent">0 B</b></div>
+        <div><span class="p-label">Kept on device</span><b id="p-kept">0 B</b></div>
+        <button class="p-mini" id="p-counters-reset" title="Reset counters">reset</button>
+      </div>
+
+      <div class="p-section">
+        <div class="p-label">Model running now</div>
+        <div class="p-backend" id="p-backend">checking…</div>
+        <ul class="p-backends" id="p-backends"></ul>
+        <label class="switch small"><input type="checkbox" id="demo-toggle"><span class="slider"></span>Use demo data (backup)</label>
+      </div>
+
+      <div class="p-section p-btns col">
+        <button id="p-home">⌂ Device home</button>
+        <button id="p-seed">Load demo class history</button>
+        <button id="p-reset">Reset device data</button>
+        <a href="report.html" target="_blank" rel="noopener">Project report ↗</a>
+      </div>
+    </aside>
+
+    <!-- The device -->
+    <div class="device" id="device" data-tier="base">
+      <div class="bumper">
+        <span class="jack" aria-hidden="true"></span>
+        <span class="side-btn power" aria-hidden="true"></span>
+        <span class="side-btn vol" aria-hidden="true"></span>
+        <div class="bezel">
+          <div class="top-bezel"><span class="speaker"></span><span class="cam"></span></div>
+          <div class="screen" data-screen="home">
+            <div class="statusbar">
+              <span id="sb-time">9:41</span>
+              <span id="sb-tier" class="sb-tier">BASE · E2B</span>
+              <span class="sb-right"><span id="sb-offline" class="sb-badge"></span><span id="sb-net" class="sb-net"></span><span class="battery"><i></i></span></span>
+            </div>
+            <main id="view" class="view"></main>
+            <div id="busy" class="busy" role="status" aria-live="polite"></div>
+            <div id="toast" class="toast" role="status" aria-live="polite"></div>
+          </div>
+          <div class="chin"><span class="mic-holes"><i></i><i></i><i></i></span><span class="chin-label">CLASSMATE</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

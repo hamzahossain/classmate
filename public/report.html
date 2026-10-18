@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Classmate Project Report</title>
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<style>
+  :root { --paper:#f2ede3; --ink:#1d2621; --muted:#5b645e; --line:#e2dccf; --green:#2f7d5b; --blue:#2f6fb3; --gold:#b9770e; --soft:#e2f1e9; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 ui-rounded, "SF Pro Rounded", "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 920px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font-size: 44px; line-height: 1.1; margin: 0 0 8px; letter-spacing: -.02em; }
+  h2 { font-size: 26px; margin: 56px 0 12px; letter-spacing: -.01em; }
+  h3 { font-size: 19px; margin: 24px 0 6px; }
+  p { margin: 10px 0; }
+  .kicker { text-transform: uppercase; letter-spacing: .12em; font-size: 13px; font-weight: 800; color: var(--green); }
+  .lede { font-size: 21px; color: #364039; max-width: 760px; }
+  .big-quote { font-size: 24px; font-weight: 700; border-left: 5px solid var(--green); padding: 4px 0 4px 18px; margin: 24px 0; }
+  img { max-width: 100%; display: block; border-radius: 18px; }
+  figure { margin: 24px 0; } figcaption { color: var(--muted); font-size: 14px; margin-top: 8px; }
+  table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 14px; overflow: hidden; font-size: 15px; margin: 14px 0; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: #faf7f0; font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+  tr:last-child td { border-bottom: none; }
+  td.y { color: var(--green); font-weight: 800; } td.n { color: #b5ada0; } td.p { color: var(--gold); font-weight: 800; }
+  .lite { color: var(--blue); } .base { color: var(--green); } .pro { color: var(--gold); }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin: 14px 0; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 16px; }
+  .card b { display: block; margin-bottom: 4px; }
+  .flow { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; counter-reset: s; }
+  .flow div { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 12px; font-size: 15px; position: relative; }
+  .flow div::before { counter-increment: s; content: counter(s); position: absolute; top: -10px; left: 10px; background: var(--ink); color: #fff; width: 22px; height: 22px; border-radius: 50%; font-size: 12px; display: grid; place-items: center; font-weight: 800; }
+  .tag { display: inline-block; font-size: 12px; font-weight: 800; padding: 1px 8px; border-radius: 8px; }
+  .tag.ai { background: #fbefd9; color: #8a5800; } .tag.code { background: #e3eef9; color: #2c5d91; }
+  code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 14px; }
+  pre { background: #1d2621; color: #e8efe9; padding: 14px 16px; border-radius: 14px; overflow-x: auto; line-height: 1.5; }
+  ol.script li { margin: 8px 0; } .t { font-variant-numeric: tabular-nums; font-weight: 800; color: var(--green); display: inline-block; min-width: 54px; }
+  .note { background: #fff8e8; border: 1px solid #f0dcae; border-radius: 14px; padding: 12px 16px; font-size: 15px; }
+  a { color: var(--green); }
+  footer { margin-top: 60px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">Project report · Gemma 4 hackathon</div>
+  <h1>Classmate</h1>
+  <p class="lede">A shared classroom device that hears children read, sees their written work and grades both, so one teacher can give every child individual attention. It runs Gemma 4 on the device and uses the network only for a few kilobytes a week.</p>
+
+  <figure><img src="assets/device-lineup.png" alt="Three Classmate devices side by side: Lite in blue, Base in green, Pro in black with a gold ring."><figcaption>The lineup: Lite (online), Base (Gemma 4 E2B on device) and Pro (Gemma 4 E4B on device).</figcaption></figure>
+
+  <h2>The problem</h2>
+  <p>An estimated 7 in 10 ten-year-olds in low- and middle-income countries cannot read and understand a simple text (World Bank, UNESCO, UNICEF and partners, 2022). The only reliable way to find out whether a child can read is to listen to them read, one at a time. With 40 to 60 children in a class, a teacher simply cannot, so struggling readers go unnoticed for years.</p>
+  <p>Cloud AI does not fix this where it matters most. Networks there are expensive, slow or missing; the work involves dozens of voice recordings a day, which are costly to upload; and it is children's data. GSMA estimates that 3.1 billion people live under mobile coverage but still do not use mobile internet, mostly because of cost and skills: nine times more than the 350 million with no coverage at all.</p>
+  <div class="big-quote">Multimodal AI used to need a data center. Now it fits in a classroom device that hears, sees and grades without the internet.</div>
+
+  <h2>Who it is for</h2>
+  <div class="cards">
+    <div class="card"><b>Users</b>Primary school teachers (grades 1–5) with large classes, and their students.</div>
+    <div class="card"><b>Setting</b>Under-resourced schools where data is expensive, slow or missing. One or two devices per classroom or school.</div>
+    <div class="card"><b>Buyers</b>Education NGOs, government programs, low-cost private school networks and community learning centers, buying in bulk.</div>
+  </div>
+
+  <h2>Three versions</h2>
+  <table>
+    <tr><th></th><th class="lite">Lite</th><th class="base">Base</th><th class="pro">Pro</th></tr>
+    <tr><td>AI</td><td>Gemma 4 via the Gemini API</td><td>Gemma 4 E2B on the device</td><td>Gemma 4 E4B on the device</td></tr>
+    <tr><td>Hardware</td><td>Cheapest phone, 2–3 GB RAM</td><td>4–6 GB RAM</td><td>8 GB RAM, better mic</td></tr>
+    <tr><td>Network</td><td>Needed for AI; daily limit</td><td>Weekly sync and updates only</td><td>Weekly sync and updates only</td></tr>
+    <tr><td>Without signal</td><td>Saves work in a queue, grades it when the network returns</td><td>Everything works</td><td>Everything works</td></tr>
+    <tr><td>Strength</td><td>Lowest price</td><td>Works anywhere, private, no running cost</td><td>Most accurate with hesitant speech and messy handwriting, plus exclusive features</td></tr>
+    <tr><td>Weakness</td><td>Uploads photos and voice; stops grading offline</td><td>Weaker on very hesitant speech and messy writing</td><td>Most expensive</td></tr>
+  </table>
+
+  <h2>Feature list</h2>
+  <table>
+    <tr><th>Feature</th><th>What it does</th><th class="lite">Lite</th><th class="base">Base</th><th class="pro">Pro</th></tr>
+    <tr><td><b>Read Aloud grader</b></td><td>Photo of a paragraph, teacher taps where to start, the child reads, every word is marked correct, misread, skipped or not reached, with words correct per minute.</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓ best</td></tr>
+    <tr><td><b>Spoken comprehension check</b></td><td>Asks a question about the passage, the child answers out loud, the answer is judged.</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
+    <tr><td><b>Grade Answers</b></td><td>Photos of handwritten answer sheets are read and marked against the model answer; for maths, the first wrong step is found. The teacher approves each mark.</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓ best</td></tr>
+    <tr><td><b>Copying check</b></td><td>Compares all answers to the same question and flags pairs that share unusual mistakes, with an explanation for the teacher.</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
+    <tr><td><b>Make a Test</b></td><td>Multiple-choice and short-answer questions from a photographed textbook page, ready to print.</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
+    <tr><td><b>Class Report</b></td><td>Reading speed trends, who needs help, words the class struggles with, and what to reteach this week.</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
+    <tr><td><b>Spoken parent reports</b></td><td>A three-sentence progress report in the family's language, read aloud for parents who cannot read.</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
+    <tr><td><b>Read to Me</b></td><td>Any page read aloud with word highlighting, through headphones on the audio jack, plus "explain it simply".</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
+    <tr><td><b>Oral Exam</b></td><td>An adaptive spoken exam: listens, judges, and chooses a follow-up, easier or harder question.</td><td class="n">–</td><td class="n">–</td><td class="p">PRO</td></tr>
+    <tr><td><b>Home Language bridge</b></td><td>A child asks about the lesson in their home language and hears the answer in it.</td><td class="n">–</td><td class="n">–</td><td class="p">PRO</td></tr>
+    <tr><td><b>Weekly sync</b></td><td>Sends scores only (about 1–2 KB). Photos and voices never leave the device on Base and Pro.</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
+  </table>
+
+  <h3>Why Pro is a different product, not just a faster one</h3>
+  <p>The <b>Oral Examiner</b> is a chain with no room for error: understand hesitant children's speech, judge a half-right answer, then pick the right next question in real time. If the first step mishears the child, every later step goes wrong. Gemma 4 E2B's audio is its weakest area (its English speech error rate is about 8% on clean adult speech in Google's own results, and independent hands-on tests found E4B clearly better), so this feature only ships on E4B. Many children know more than they can write; an oral exam is the fairest test for them, but it costs a teacher ten minutes per child, so it almost never happens. The <b>Home Language bridge</b> also depends on speech translation, where E4B is markedly stronger.</p>
+
+  <h2>How it works: Gemma where it is strong, plain code where it must be exact</h2>
+  <div class="flow">
+    <div><span class="tag ai">Gemma</span><br>Page photo → text</div>
+    <div><span class="tag ai">Gemma</span><br>Child's voice → what they actually said, transcribed <b>blind</b></div>
+    <div><span class="tag code">Code</span><br>Word-by-word alignment: correct, misread, skipped, not reached</div>
+    <div><span class="tag code">Code</span><br>Words correct per minute, class statistics, copying similarity</div>
+    <div><span class="tag ai">Gemma</span><br>Kind feedback, questions, reports, explanations</div>
+  </div>
+  <p><b>The key design decision:</b> when transcribing a child's reading, the device never gives Gemma the page text. If a language model knows what the child was supposed to say, it tends to "hear" the correct reading and hide the mistakes. Transcribing blind and comparing in code keeps the assessment honest.</p>
+  <p><b>Copy detection</b> is also plain code: it compares 3-word phrases and, more importantly, unusual words two answers share that are not in the model answer. Two students sharing a correct fact is normal; two students sharing the same misspelling and the same wrong idea is not. Gemma only writes the neutral explanation for the teacher.</p>
+
+  <h2>The device</h2>
+  <figure><img src="assets/device-hero.png" alt="Front and back of the Classmate Base device with labelled features: headset jack, touch screen, Gemma 4 on device, rubber bumper, dual microphones, rear camera, microSD slot, data-light 4G, battery and loudspeaker."><figcaption>Concept hardware: a rugged mid-range Android phone in kiosk mode. The 3.5 mm jack matters more than it looks: a cheap wired headset mic held close to the child's mouth cuts classroom noise more than any model upgrade.</figcaption></figure>
+
+  <h2>Data budget</h2>
+  <table>
+    <tr><th>Direction</th><th>What</th><th>Size</th><th>How often</th></tr>
+    <tr><td>Up</td><td>Per-student scores and problem words</td><td>~200 bytes each</td><td>Weekly</td></tr>
+    <tr><td>Up</td><td>Class summary</td><td>~1–2 KB</td><td>Weekly</td></tr>
+    <tr><td>Down</td><td>New reading passages and rubrics</td><td>A few MB</td><td>Once a term</td></tr>
+    <tr><td>Down</td><td>Model update</td><td>~1.5–3 GB</td><td>Rarely, by microSD or town Wi-Fi, never mobile data</td></tr>
+  </table>
+  <p>A cloud app would upload every 25-second recording and every page photo. The simulator counts both numbers live: "Data sent" and "Kept on device".</p>
+
+  <h2>The demo build</h2>
+  <p>A web simulator of the device (touch UI inside a drawn device frame, camera, file picker and microphone recording), a zero-dependency Node server that holds every prompt, and a Python server that loads Gemma 4 from <code>model.safetensors</code>. The same web app runs full screen on a real phone.</p>
+  <pre>Browser (device UI)  ──  Node server (prompts, tiers)  ──┬── Python model server  →  models/base (E2B), models/pro (E4B)
+  camera, mic → WAV 16 kHz                                  ├── llama-server (OpenAI-compatible, GGUF)  [optional]
+  alignment + copy check in JS                              ├── Gemini API (Lite tier)                   [optional]
+                                                            └── demo data (no model, backup)</pre>
+
+  <h2>How to demo it (3 minutes)</h2>
+  <ol class="script">
+    <li><span class="t">0:00</span> The problem: "7 in 10 ten-year-olds can't read a simple text. You only find out by listening. One teacher, 60 kids: it never happens."</li>
+    <li><span class="t">0:25</span> Show the device on Base. Turn <b>Network off</b> in the side panel. Point at "AI on device" in the status bar.</li>
+    <li><span class="t">0:35</span> Read Aloud: photograph a page, tap the word to start from, pick a student. A teammate reads it like a child, skipping one word and misreading another on purpose.</li>
+    <li><span class="t">1:10</span> Results light up: green, amber, red, words per minute, kind feedback read aloud, comprehension question answered by voice.</li>
+    <li><span class="t">1:35</span> Grade Answers: pick four answer-sheet photos, then "Check for copying": the pair with the same misspellings is flagged and explained.</li>
+    <li><span class="t">2:00</span> Class Report: who needs help, words the class struggles with, "what should I reteach", a parent report played in Bangla. Sync: "1 KB sent."</li>
+    <li><span class="t">2:20</span> Switch to Pro: Oral Exam asks, listens, adapts. Switch to Lite with the network still off: it queues the work and grades it when you turn the network back on.</li>
+    <li><span class="t">2:45</span> Close: "One open, Apache-licensed model that reads, listens and reasons, small enough for a cheap phone. Data sent this week: kilobytes."</li>
+  </ol>
+
+  <h2>Honest limits</h2>
+  <ul>
+    <li>Children's speech is harder than adult speech. The device is a helper for the teacher, not an automated judge, and every mark can be changed.</li>
+    <li>Local-language quality varies. English is the starting language; others ship after testing.</li>
+    <li>Text-to-speech uses the voices built into the operating system, which differ by language and device.</li>
+    <li>Gemma 4 takes about 30 seconds of audio per clip, so recordings stop at 25 seconds and reading is done paragraph by paragraph.</li>
+    <li>Copy detection only flags pairs for review; it is never proof.</li>
+  </ul>
+
+  <h2>Sources</h2>
+  <ul>
+    <li><a href="https://www.unicef.org/press-releases/70-cent-10-year-olds-learning-poverty-unable-read-and-understand-simple-text">UNICEF / World Bank: 70% of 10-year-olds in learning poverty (2022)</a></li>
+    <li><a href="https://www.gsma.com/newsroom/press-release/new-gsma-report-shows-mobile-internet-connectivity-continues-to-grow-globally-but-barriers-for-3-45-billion-unconnected-people-remain/">GSMA State of Mobile Internet Connectivity 2024</a></li>
+    <li><a href="https://opensource.googleblog.com/2026/03/gemma-4-expanding-the-gemmaverse-with-apache-20.html">Google Open Source Blog: Gemma 4 under Apache 2.0</a></li>
+    <li><a href="https://weesperneonflow.ai/en/blog/2026-08-08-whisper-vs-gemma-on-device-dictation-2026/">Gemma 4 speech recognition results (Gemma 4 technical report figures)</a></li>
+    <li><a href="https://www.kartit.net/blog/gemma4-local-benchmark">Independent local test of Gemma 4 E2B vs E4B audio</a></li>
+  </ul>
+  <footer>Classmate · built for the Hacktoberfest Hack Day with Gemma 4 · Apache-2.0</footer>
+</main>
+</body>
+</html>
